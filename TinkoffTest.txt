@@ -1,4 +1,9 @@
 // 1
+
+// read: 60 60 4          write: no
+// read: 60 30 3          write: yes
+// read: 30 30 1          write: no
+
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +24,13 @@ public class Main {
 
 
 // 2
-package com;
+
+// read: > > >
+// write: cba
+//
+// read: = > >
+// write: cab
+// write: cba
 
 import javax.xml.bind.SchemaOutputResolver;
 import java.util.Arrays;
@@ -138,6 +149,10 @@ public class Main {
 
 
 // 3 
+
+// read: 10500  write: 2
+
+
 import java.util.Scanner;
 
 public class Main {
@@ -158,6 +173,14 @@ public class Main {
 }
 
 // 4
+// read: 5
+// write:
+// abcba
+// babab
+// cbabc
+// babab
+// abcba
+
 
 import java.util.Scanner;
 
@@ -200,6 +223,7 @@ public class Main {
 
 // 5 
 
+// read: 3 2 write: 2
 import java.util.Scanner;
 
 public class Main {
@@ -230,7 +254,14 @@ public class Main {
 
 
 // 6 
-
+// read: 2 24 60 15   write: 0 0 
+//        16 0          
+//        17 15
+//
+// read: 2 24 60 16   write: 1 0
+//        16 0                 2
+//        17 15
+//
 import java.util.Scanner;
 
 public class Main {
